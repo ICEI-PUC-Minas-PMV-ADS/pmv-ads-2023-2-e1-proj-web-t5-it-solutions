@@ -2,22 +2,51 @@
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
+
 
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil Colaborador </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Colaborador ativo do setor administrativo</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+1. Acesso fácil e rápido com interface intuitiva para realização de abertura de chamados internos.
+
+2. Conseguir se comunicar com o agente resolutivo direto na ferramenta.
+
+3. Possibilidade de acompanhamento de sua solicitação fim a fim.
+</td>
 </tr>
 </tbody>
+</table>
+
+<table>
+<tbody>
+  <tr aling=center>
+    <th colspan="2">Perfil Atendente </th>
+  </tr>
+  <tr>
+    <td width="150px"><b>Descrição</b></td>
+    <td width="600px">Suporte técnico de TI</td>
+  </tr>
+  <tr>
+  <td><b>Necessidades<b></td>
+  <td>
+1. Acesso fácil e rápido aos chamados com atribuições especificas
+    
+2. Conseguir se comunicar com o solicitante direto na ferramenta para entender o real problema
+
+3. Possibilidade de realizar um gerenciamento dos chamados, identificando oportunidades de problemas resolvidos sem causa raiz
+</td>
+  </tr>
+  </tr>
+</tbody>  
 </table>
 
 
