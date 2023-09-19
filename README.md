@@ -15,7 +15,7 @@ Breve descrição do projeto.
 * Daniela Fernandez da Cruz
 * Heitor Flávio Silva Oliveira
 * Henrique Antônio Pozza
-* Luiz Eduardo de Paula Moraes
+* Luiz Eduardo de Paula Morais
 
 ## Orientador
 
