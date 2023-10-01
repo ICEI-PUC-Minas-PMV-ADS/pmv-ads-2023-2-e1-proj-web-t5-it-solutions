@@ -20,13 +20,6 @@ Link do user flow: https://www.figma.com/file/0YNbeE323cefjp1EcPMvO5/User-Flow-I
 
 ## Protótipo
 
-As telas do sistema apresentam uma estrutura comum que é apresentada na figura 1. São eles:
-
-Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);
-Conteúdo - apresenta o conteúdo da tela em questão;
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/7527b674-1369-4a40-a59c-cf86e9776f23)
-
 ### Tela - Homepage
 
 A tela de home page apresenta a explicação do que pode ser feito na aplicação. Como rota de criação de ocorrências, acompanhamento das solicitações e FAQ para dúvidas.
