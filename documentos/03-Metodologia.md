@@ -57,7 +57,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Repositório de código fonte         | GitHub                             | http://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/tree/main/codigo-fonte)|                      
 | Documentos do projeto               | GitHub                             | http:://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/tree/main/documentos)|                        
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/9asrITzj4O8bNsztSBcOF4/Prot%C3%B3tipo-IT-Solutions---Projeto%3A-Desenvolvimento-de-Aplica%C3%A7%C3%A3o-Web-Front-End?type=design&node-id=0%3A1&mode=design&t=UkaOs1ZQ1MunQgk4-1)|
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Gerenciamento do Projeto            | Trello Projects                    | https://trello.com/b/6vPQ1VlJ/it-solutions|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
