@@ -89,9 +89,9 @@ A tela Landing page será o e-mail que o usuário receberá para acompanhamento 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/03a6b9d1-8fba-4e77-9e08-19402340587d)
 
 > **Links Úteis**:
-> - [Protótipos vs Wireframes]([https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/](https://www.figma.com/file/0YNbeE323cefjp1EcPMvO5/User-Flow-IT-Solutions---Projeto%3A-Desenvolvimento-de-Aplica%C3%A7%C3%A3o-Web-Front-End?type=whiteboard&node-id=0-1&t=mqPe0LzxAz0kjxdb-0))
+> - [Protótipos vs Wireframes]: https://www.figma.com/file/9asrITzj4O8bNsztSBcOF4/Prot%C3%B3tipo-IT-Solutions---Projeto%3A-Desenvolvimento-de-Aplica%C3%A7%C3%A3o-Web-Front-End?type=design&mode=design&t=mVJOUEmEtm5Ceo8H-0
 >- Ferramentas:
->> - [Figma]([https://www.figma.com/](https://www.figma.com/file/9asrITzj4O8bNsztSBcOF4/Prot%C3%B3tipo-IT-Solutions---Projeto%3A-Desenvolvimento-de-Aplica%C3%A7%C3%A3o-Web-Front-End?type=design&node-id=0-1&mode=design&t=H0kuSCWQQECqzR39-0)https://www.figma.com/file/9asrITzj4O8bNsztSBcOF4/Prot%C3%B3tipo-IT-Solutions---Projeto%3A-Desenvolvimento-de-Aplica%C3%A7%C3%A3o-Web-Front-End?type=design&node-id=0-1&mode=design&t=H0kuSCWQQECqzR39-0)
+>> - [Figma]: https://www.figma.com/file/0YNbeE323cefjp1EcPMvO5/User-Flow-IT-Solutions---Projeto%3A-Desenvolvimento-de-Aplica%C3%A7%C3%A3o-Web-Front-End?type=whiteboard&node-id=0-1&t=mqPe0LzxAz0kjxdb-0
 
 
 
