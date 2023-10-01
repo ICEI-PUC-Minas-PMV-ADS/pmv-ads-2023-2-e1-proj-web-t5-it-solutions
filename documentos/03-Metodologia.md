@@ -13,7 +13,7 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
 - Scrum Master: Daniela Fernandez da Cruz, principal responsável pela gestão do projeto.
-- Product Owner: Heitor Flavio da Silva Oliveira, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
+- Product Owner: Heitor Flavio Silva Oliveira, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
 - Equipe de Desenvolvimento: André Fernandes Reis, Daniela Fernandez da Cruz, Heitor Flavio da Silva Oliveira, Luiz Eduardo de Paula e Henrique Antonio Pozza.
 - Equipe de Design: Daniela Fernandez da Cruz e Luiz Eduardo de Paula.
 
