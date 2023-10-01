@@ -5,7 +5,8 @@
 
 Fluxo de usuário (User flow) é o mapeamento de todo o fluxo de telas de um site ou aplicação de forma rápida. Essa técnica funciona bem para alinhar os caminhos e ações que o usuário pode fazer junto com os membros do time.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FXsIK8ZOs31kUDPRhoLNdJh%2FUntitled%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DFHVxQ8hhFASnJXX9-1" allowfullscreen></iframe>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/145407483/19148041-e2ae-4ab8-9535-754d4852db54)
+
 
 ## Protótipo
 
