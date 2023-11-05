@@ -1,5 +1,3 @@
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/37d71960-0b56-4125-a30e-b09f2c283169)# Template padrão da Aplicação
-
 O layout padrão do site foi construído com as linguagens de marcação HTML e CSS.
 
 As páginas terão como elementos padrões o menu de navegação e o header, além dos elementos de identidade visual citados abaixo:
