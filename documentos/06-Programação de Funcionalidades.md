@@ -2,12 +2,13 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
+### Tela inicial IT Solutions (RF-11)
 
-### Título da funcionalidade
+Responsável: Daniela Cruz
 
-[Adicione imagem da funcionalidade/tela]
+O site deve permitir ao usuário fazer o login da sua conta, navegar no menu (Quem somos, Tutorial, Sign In e Sign Up).
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/846a7ff5-ffd9-40d8-8bf0-67b5719a4b54)
 
 #### Requisito atendido
 
