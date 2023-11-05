@@ -1,12 +1,17 @@
-# Template padrão da Aplicação
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/37d71960-0b56-4125-a30e-b09f2c283169)# Template padrão da Aplicação
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+O layout padrão do site foi construído com as linguagens de marcação HTML e CSS.
 
-[Apresente a estrutura padrão da sua aplicação.]
+As páginas terão como elementos padrões o menu de navegação e o header, além dos elementos de identidade visual citados abaixo:
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Cores: White (#ffffff), Gray (#FFF2E7), Green (#74E37F) e Black (#000000)
+Font-family: 'Trispace', sans-serif;
+Font-size: 100%;
+
+O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado aqui. As imagens e ícones utilizados no projeto estão disponíveis aqui.
+
+Tela de bem-vindo IT Solutions:
+
+Exibe informações sobre a página inicial da ferramenta, o quatro kanban das ocorrências e a logo do IT Solutions.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/6a558be8-bd99-47d7-8092-6cac0ae8cf23)
