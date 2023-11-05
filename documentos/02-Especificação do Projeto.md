@@ -70,14 +70,17 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 | O sistema deve permitir o registro de usuários com diferentes níveis de permissão (colaborador, suporte), assim como recuperação/alteração de senha e edição de permissionamento | Alta | 
-| RF-02 | Colaborador: Criar/Ler/Alterar uma ocorrência de possíveis, onde vai informar título, categoria (problema com TI, físico), data e hora, descrição, nível de urgência (se é impeditivo ou não para o trabalho do mesmo) e possibilitar anexo de arquivos ou fotos. | Alta |
-| RF-03 | Atendente: Alterar status do chamado (aberto, pendente, em análise, resolvido) | Alta |
-| RF-04 | O sistema deve categorizar em colunas as ocorrências | Alta |
-| RF-05 | Atendente: Acessar o histórico de ocorrências | Alta |
-| RF-06 | Colaborador: Acessar o histórico pessoal de ocorrências | Baixa |
-| RF-07 | O sistema deve enviar notificações de atualizações de status das suas ocorrências | Média |
-| RF-08 | Deve ser possível filtrar ocorrências usando diferentes critérios (data, status, prioridade, categoria...) | Baixa |
+| RF-01 | O sistema deve permitir o usuário acessar seu site com o login | Alta |
+| RF-02 | O sistema deve permitir o usuário criar o seu cadastro na página | Alta |
+| RF-03 | O sistema deve permitir o registro de usuários com diferentes níveis de permissão (colaborador, suporte), assim como recuperação/alteração de senha e edição de permissionamento | Alta | 
+| RF-04 | Colaborador: Criar/Ler/Alterar uma ocorrência de possíveis, onde vai informar título, categoria (problema com TI, físico), data e hora, descrição, nível de urgência (se é impeditivo ou não para o trabalho do mesmo) e possibilitar anexo de arquivos ou fotos. | Alta |
+| RF-05 | Atendente: Alterar status do chamado (aberto, pendente, em análise, resolvido) | Alta |
+| RF-06 | O sistema deve categorizar em colunas as ocorrências | Alta |
+| RF-07 | Atendente: Acessar o histórico de ocorrências | Alta |
+| RF-08 | Colaborador: Acessar o histórico pessoal de ocorrências | Baixa |
+| RF-09 | O sistema deve enviar notificações de atualizações de status das suas ocorrências | Média |
+| RF-10 | Deve ser possível filtrar ocorrências usando diferentes critérios (data, status, prioridade, categoria...) | Baixa |
+| RF-11 | Deve ser possível acessar a página inicial do site e selecionar "Quem somos" | Baixa |
 
 **Prioridade: Alta / Média / Baixa. 
 
