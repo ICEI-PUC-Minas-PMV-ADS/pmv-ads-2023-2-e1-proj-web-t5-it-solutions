@@ -10,10 +10,13 @@ O site deve permitir ao usuário fazer o login da sua conta, navegar no menu (Qu
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/846a7ff5-ffd9-40d8-8bf0-67b5719a4b54)
 
-#### Requisito atendido
+#### Tela de Login (RF-02) 
 
-[RF-X: adicione a descrição do requisito atendido]
+Responsável: Daniela Cruz
 
+O sistema deve permitir o usuário acessar seu site com o login.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/e3770b83-8aba-49d0-9596-22fdc69bc8e4)
 
 #### Artefatos da funcionalidade
 
