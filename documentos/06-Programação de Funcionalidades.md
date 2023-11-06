@@ -18,10 +18,13 @@ O sistema deve permitir o usuário acessar seu site com o login.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/e3770b83-8aba-49d0-9596-22fdc69bc8e4)
 
-#### Artefatos da funcionalidade
+#### Tela de FAQ (RF-02) 
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+Responsável: Henrique Pozza
 
+O sistema deve permitir o usuário acessar a FAQ.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-it-solutions/assets/136030209/ab8389cf-2339-4a7d-959a-6f1bc1daed0a)
 
 #### Estrutura de Dados
 
