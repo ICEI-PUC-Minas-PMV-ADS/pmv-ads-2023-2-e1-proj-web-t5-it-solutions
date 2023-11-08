@@ -81,6 +81,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | RF-09 | O sistema deve enviar notificações de atualizações de status das suas ocorrências | Média |
 | RF-10 | Deve ser possível filtrar ocorrências usando diferentes critérios (data, status, prioridade, categoria...) | Baixa |
 | RF-11 | Deve ser possível acessar a página inicial do site e selecionar "Quem somos" | Baixa |
+| RF-11 | Deve ser possível acessar a FAQ | Baixa |
 
 **Prioridade: Alta / Média / Baixa. 
 
