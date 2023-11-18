@@ -64,22 +64,24 @@ function openAddTaskModal() {
 
 // Function to add a new task and close the add task modal
 function addTask() {
-    const newTitle = document.getElementById('newTitle').value;
+    const newTitle = document.getElementById('newTitle').value.trim();
     const newStatus = document.getElementById('newStatus').value;
 
     if (newTitle.length < 1) {
-      
+    document.getElementById('addTaskButton').disabled = true;
     }
 
-    const newTask = {
-        id: tasks.length + 1,
-        title: newTitle,
-        status: newStatus,
-    };
+    if (newTitle !== '') {
+      const newTask = {
+          id: tasks.length + 1,
+          title: newTitle,
+          status: newStatus,
+      };
 
-    tasks.push(newTask);
-    renderTasks();
-    closeAddTaskModal();
+      tasks.push(newTask);
+      renderTasks();
+      closeAddTaskModal();
+  }
 }
 
 // Function to close the add task modal
@@ -92,7 +94,7 @@ function closeAddTaskModal() {
 
 document.getElementById('newTitle').addEventListener('input', function () {
   const addButton = document.getElementById('addTaskButton');
-  addButton.disabled = this.value.trim() === '';
+  addButton.disabled = this.value.trim() == '';
 });
 
 // Initial rendering of tasks
