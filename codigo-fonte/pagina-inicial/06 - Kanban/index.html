@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&family=Space+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page">
+        <header class="container">
+            <div class="navbar">
+                <div class="nav-title">
+                    <img class="logo" src="./assets/logo.png" alt="">
+                    <h2>IT Solutions</h2>
+                </div>
+                <div class="user-icon">
+                    <h3 style="border-radius: 50%; border: 2px solid #000; padding: 5px 8px;" >HP</h3>
+                    <a href="../02 - Tela de Login/index.html" style="margin-left: 10px;">Log Out</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="create-task">
+            <button class="add-task-button" onclick="openAddTaskModal()">Create Taks</button>
+        </div>
+
+
+        <main class="kanban">
+            <div class="kanban-board">
+                <div id="todo" class="column">
+                    <header>Todo</header>
+                    <div id="todo-tasks" class="tasks"></div>
+                </div>
+                <div id="in-progress" class="column">
+                    <header>In Progress</header>
+                    <div id="in-progress-tasks" class="tasks"></div>
+                </div>
+                <div id="in-review" class="column">
+                    <header>In Review</header>
+                    <div id="in-review-tasks" class="tasks"></div>
+                </div>
+                <div id="done" class="column">
+                    <header>Done</header>
+                    <div id="done-tasks" class="tasks"></div>
+                </div>
+            </div>
+        </main>
+
+
+        <div id="editModal" class="modal">
+            <label for="editTitle">Task Title:</label>
+            <input type="text" id="editTitle">
+            <label for="editStatus">Task Status:</label>
+            <select id="editStatus">
+                <option value="todo">Todo</option>
+                <option value="in-progress">In Progress</option>
+                <option value="in-review">In Review</option>
+                <option value="done">Done</option>
+            </select>
+            <button onclick="updateTask()">Save</button>
+        </div>
+
+        <div id="addTaskModal" class="modal">
+            <label for="newTitle">Task Title:</label>
+            <input type="text" id="newTitle">
+            <label for="newStatus">Task Status:</label>
+            <select id="newStatus">
+                <option value="todo">Todo</option>
+                <option value="in-progress">In Progress</option>
+                <option value="in-review">In Review</option>
+                <option value="done">Done</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+    </div>
+</body>
+
+
+
+<script src="script.js"></script>
+
+</html>
