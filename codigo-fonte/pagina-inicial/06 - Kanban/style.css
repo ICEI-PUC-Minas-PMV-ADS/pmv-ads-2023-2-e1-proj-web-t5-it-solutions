@@ -1,0 +1,151 @@
+body, html {
+    margin: 10;
+    height: 100vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0 5px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+
+}
+
+.img {
+    height: auto;
+    width: 98.9vw;
+}
+
+.container {
+    width: 100%
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+    
+}
+
+.kanban {
+    margin-top: 10vh;
+}
+
+  .kanban-board {
+    display: flex;
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: rgba(208, 213, 221, 0.36);
+}
+
+.column header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+    border-radius: 6px;
+    border: 0px solid #FFF;
+}
+
+.task {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.task:hover {
+    background-color: #eaeaea;
+}
+
+.create-task {
+    margin-top: 20px;
+    position: relative;
+    left: 38vw;
+}
+
+.add-task-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.modal label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.modal button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
