@@ -15,7 +15,11 @@ body {
 }
 
 .cabeçalho-logo {
-   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .card {
@@ -35,9 +39,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: #D9D9D9;
+    background-color: #d9d9d96e;
     border-radius: 15px;
-    padding: 30px;
+    padding: 15px;
     margin: auto;
     width: max-content;
 }
@@ -47,7 +51,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
+    padding: 8px;
     width: max-content;
 }
 
@@ -60,7 +64,7 @@ body {
 
 .card-name {
     border: #D9D9D9;
-    width: 100%;
+    width: 327px;
     border-radius:15px;
     padding: 10px;
 }
@@ -72,7 +76,12 @@ body {
 
 .submit {
     background: #4AAB29;
+    background-size: 150px;
+    width: 327px;
+    height: 39px;
+    border-radius:15px;
     border: #4AAB29;
+    margin: 7%;
 }
 
 .card-secondary {
