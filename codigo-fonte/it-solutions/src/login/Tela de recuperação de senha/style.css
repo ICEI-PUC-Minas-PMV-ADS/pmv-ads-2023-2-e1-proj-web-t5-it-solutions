@@ -19,8 +19,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 5px;
-    padding-top: 8%;
+    padding-top: 103px;
     padding-right: 24px;
 }
 
@@ -28,7 +27,7 @@ body {
     font-size: 10px;
 }
 
-.login  {
+.login {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,17 +56,10 @@ body {
     width: max-content;
 }
 
-.card-footer {
-    border: 1px solid #D0D5DD;
-    width: 100%;
-    border-radius:15px;
-    padding: 10px;
-}
-
 .card-name {
     border: 1px solid #D0D5DD;
     width: 327px;
-    border-radius:15px;
+    border-radius: 15px;
     padding: 10px;
 }
 
@@ -81,40 +73,11 @@ body {
     background-size: 150px;
     width: 327px;
     height: 39px;
-    border-radius:15px;
+    border-radius: 15px;
     border: #4AAB29;
-    margin: 7%;
     font-size: 15px;
     font-weight: bold;
     color: #D9D9D9;
-}
-
-.card-secondary {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.newsolutions {
-    font-size: 16px;
-    color: black;
-    background-color: white;
-    border: 1px solid #D0D5DD;
-    border-radius: 15px;
-    padding: 16px;
-    padding-left: 45px;
-    margin: 11px;
-    width: 371px;
-    height: 49px;
-}
-
-.corAzul {
-    color: #1790FF;
-    font-weight: lighter;
-}
-
-.corCinza {
-    color: black;
-    font-weight: lighter;
+    padding: 10px;
+    padding-left: 143px;
 }
