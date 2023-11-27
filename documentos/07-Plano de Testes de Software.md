@@ -54,7 +54,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Ao clicar no card deve aparecer as opções para mudar o status da ocorrência e a possibilidade para mover o mesmo para outra coluna. |
 | Responsável pela elaborar do caso de Teste | Daniela Fernandez da Cruz |
 
-|Caso de Teste    | Cadastrar novo usuário|
+|Caso de Teste    | CT-03 - Cadastrar novo usuário|
 |:---|:---|
 | Requisitos Associados | RF-02: O sistema deve permitir o usuário criar o seu cadastro na página |
 | Objetivo do Teste | Verificar se o sistema cadastra usuários |
