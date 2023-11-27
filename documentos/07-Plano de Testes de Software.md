@@ -1,8 +1,13 @@
 # Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
+Pré-requisitos: Especificação do Projeto, Projeto de Interface
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+Os requisitos para realização dos testes de software são:
+
+Site publicado na internet;
+Navegador da internet: Chrome, Firefox ou Edge.
+
+Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
