@@ -87,6 +87,8 @@ body {
     font-size: 15px;
     font-weight: bold;
     color: #D9D9D9;
+    padding-inline: 136px;
+    padding-block: 9px;
 }
 
 .card-secondary {
