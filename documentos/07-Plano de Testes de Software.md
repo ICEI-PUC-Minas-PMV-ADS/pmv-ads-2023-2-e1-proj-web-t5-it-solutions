@@ -28,40 +28,22 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Verificar o funcionamento dos links da página Home</td>
+  <td>CT-01: Verificar funcionamento da página de Login</td>
   <td>
    <ul>
-    <li>RF-005:	O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.</li>
-    <li>RF-007:	O site deve permitir ao usuário visualizar os detalhes do livro.</li>
+    <li>RF-001:	O sistema deve permitir o usuário acessar seu site com o login.</li>
    </ul>
   </td>
-  <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
+  <td>Verificar se a página de Login está encaminhando para a página Home da aplicação.</td>
   <td>
    <ol>
-    <li>Visualizar a página Home.</li>
-    <li>Clicar nos links da página Home.</li>
-   </ol>
-   </td>
-  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td>Henrique</td>
- </tr>
- <tr>
-  <td>CT-02: Verificar o redirecionamento ao tentar fazer o login</td>
-  <td>
-   <ul>
-    <li>RF-002:	O site deve permitir ao usuário fazer o login da sua conta.</li>
-   </ul>
-  </td>
-  <td>Verificar se, ao tentar fazer o login, o usuário é redirecionado para a homepage</td>
-  <td>
-   <ol>
-    <li>Visualizar a página de login.</li>
+     <li>Visualizar a página de login.</li>
     <li>Inserir as credenciais de login.</li>
     <li>Clicar no botão de sign in</li>
    </ol>
    </td>
   <td>O usuário deve ser redirecionado para a homepage após o login.</td>
-  <td>Henrique Pozza</td>
+  <td>Henrique</td>
  </tr>
 </table>
 
