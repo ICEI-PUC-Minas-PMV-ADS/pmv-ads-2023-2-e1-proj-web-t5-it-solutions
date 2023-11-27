@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,18 +19,18 @@
         <header class="container">
             <div class="navbar">
                 <div class="nav-title">
-                    <img class="logo" src="./assets/logo.png" alt="">
+                    <img class="logo" src="../assets/Logo IT Solutions.svg.png" alt="">
                     <h2>IT Solutions</h2>
                 </div>
                 <div class="user-icon">
                     <h3 style="border-radius: 50%; border: 2px solid #000; padding: 5px 8px;" >HP</h3>
-                    <a href="../02 - Tela de Login/index.html" style="margin-left: 10px;">Log Out</a>
+                    <a href="../sign-in/index.html" style="margin-left: 10px;">Log Out</a>
                 </div>
             </div>
         </header>
 
         <div class="create-task">
-            <button id="addTaskButton" class="add-task-button" onclick="openAddTaskModal()">Create Taks</button>
+            <button id="addTaskButton" class="add-task-button" onclick="openAddTaskModal()">Create Task</button>
         </div>
 
 
@@ -64,6 +66,13 @@
                 <option value="in-review">In Review</option>
                 <option value="done">Done</option>
             </select>
+            <label for="editTag">Task Status:</label>
+            <select id="editTag">
+                <option value="bug">bug</option>
+                <option value="melhoria">melhoria</option>
+                <option value="suporte">suporte</option>
+                <option value="urgente">urgente</option>
+            </select>
             <button onclick="updateTask()">Save</button>
         </div>
 
@@ -77,8 +86,17 @@
                 <option value="in-review">In Review</option>
                 <option value="done">Done</option>
             </select>
+            <label for="newTag">Tag:</label>
+            <select id="newTag">
+                <option value="bug">bug</option>
+                <option value="melhoria">melhoria</option>
+                <option value="suporte">suporte</option>
+                <option value="urgente">urgente</option>
+            </select>
             <button onclick="addTask()">Add Task</button>
         </div>
+
+        <div class="overlay" id="overlay"></div>
 
     </div>
 </body>
@@ -88,3 +106,5 @@
 <script src="script.js"></script>
 
 </html>
+
+
