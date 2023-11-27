@@ -16,6 +16,38 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos | Indicar passos para a execução do teste |
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: Verificar funcionamento da página de Login</td>
+  <td>
+   <ul>
+    <li>RF-001:	O sistema deve permitir o usuário acessar seu site com o login.</li>
+   </ul>
+  </td>
+  <td>Verificar se a página de Login está encaminhando para a página Home da aplicação.</td>
+  <td>
+   <ol>
+     <li>Visualizar a página de login.</li>
+    <li>Inserir as credenciais de login.</li>
+    <li>Clicar no botão de sign in</li>
+   </ol>
+   </td>
+  <td>O usuário deve ser redirecionado para a homepage após o login.</td>
+  <td>Henrique</td>
+ </tr>
+</table>
+
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
