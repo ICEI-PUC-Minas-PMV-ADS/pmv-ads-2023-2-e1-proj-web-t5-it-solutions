@@ -9,34 +9,7 @@ Navegador da internet: Chrome, Firefox ou Edge.
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
- <tr>
-  <td>CT-01: Verificar funcionamento da página de Login</td>
-  <td>
-   <ul>
-    <li>RF-001:	O sistema deve permitir o usuário acessar seu site com o login.</li>
-   </ul>
-  </td>
-  <td>Verificar se a página de Login está encaminhando para a página Home da aplicação.</td>
-  <td>
-   <ol>
-     <li>Visualizar a página de login.</li>
-    <li>Inserir as credenciais de login.</li>
-    <li>Clicar no botão de sign in</li>
-   </ol>
-   </td>
-  <td>O usuário deve ser redirecionado para a homepage após o login.</td>
-  <td>Henrique</td>
- </tr>
-</table>
+
 
 |Caso de Teste    | CT-01 - Criação de um card no board|
 |:---|:---|
@@ -60,6 +33,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Verificar se o sistema cadastra usuários |
 | Passos | Preencher os campos de informação |
 | Critérios de êxito | Login e senha permitindo acesso à plataforma  |
+| Responsável pela elaborar do caso de Teste | Henrique Pozza |
+
+|Caso de Teste    | CT-04 - Verificar funcionamento da página de Login|
+|:---|:---|
+| Requisitos Associados | RF-001:	O sistema deve permitir o usuário acessar seu site com o login. |
+| Objetivo do Teste | Visualizar a página de login. Inserir as credenciais de login. Clicar no botão de sign in e redirecionar para a página HOME. |
+| Passos | Preencher os campos de informação |
+| Critérios de êxito | O usuário deve ser redirecionado para a homepage após o login.  |
 | Responsável pela elaborar do caso de Teste | Henrique Pozza |
 
 > **Links Úteis**:
