@@ -15,11 +15,8 @@ Com isso, se faz necessário um sistema com o processo completo de suporte melho
 
 ## Integrantes
 
-* André Fernandes Reis
 * Daniela Fernandez da Cruz
-* Heitor Flávio Silva Oliveira
 * Henrique Antônio Pozza
-* Luiz Eduardo de Paula Morais
 
 ## Orientador
 
