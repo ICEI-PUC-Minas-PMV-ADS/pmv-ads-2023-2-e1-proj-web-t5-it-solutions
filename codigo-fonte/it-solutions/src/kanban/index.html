@@ -73,7 +73,8 @@
                 <option value="suporte">suporte</option>
                 <option value="urgente">urgente</option>
             </select>
-            <button onclick="updateTask()">Save</button>
+            <button class="add-button" onclick="updateTask()">Save</button>
+            <button class="delete-btn" onclick="deleteTask(selectedTaskId)">Delete</button>
         </div>
 
         <div id="addTaskModal" class="modal">
@@ -93,7 +94,7 @@
                 <option value="suporte">suporte</option>
                 <option value="urgente">urgente</option>
             </select>
-            <button onclick="addTask()">Add Task</button>
+            <button class="add-button" onclick="addTask()">Add Task</button>
         </div>
 
         <div class="overlay" id="overlay"></div>

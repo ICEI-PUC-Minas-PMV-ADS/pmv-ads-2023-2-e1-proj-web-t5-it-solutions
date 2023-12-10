@@ -1,10 +1,10 @@
 const tasks = [
-    { id: 1, title: 'Task 1', status: 'todo', tag: 'bug' },
-    { id: 2, title: 'Task 2', status: 'in-progress', tag: 'bug' },
-    { id: 3, title: 'Task 3', status: 'in-review', tag: 'bug' },
-    { id: 4, title: 'Task 4', status: 'done', tag: 'bug' },
-    { id: 5, title: 'Task 5', status: 'done', tag: 'bug' },
-  ];
+  { id: 1, title: 'Task 1', status: 'todo', tag: 'bug', created_at: '2023-11-01' },
+  { id: 2, title: 'Task 2', status: 'in-progress', tag: 'bug', created_at: '2023-11-02' },
+  { id: 3, title: 'Task 3', status: 'in-review', tag: 'melhoria', created_at: '2023-11-03' },
+  { id: 4, title: 'Task 4', status: 'done', tag: 'urgente', created_at: '2023-11-04' },
+  { id: 5, title: 'Task 5', status: 'done', tag: 'suporte', created_at: '2023-11-05' },
+];
   
   let selectedTaskId = null;
   
@@ -26,18 +26,28 @@ const tasks = [
             const contentContainer = document.createElement('div');
             
             // Display title
-            const titleElement = document.createElement('div');
+            const titleElement = document.createElement('h2');
             titleElement.textContent = task.title;
             contentContainer.appendChild(titleElement);
 
             // Display tag
-            const tagElement = document.createElement('div');
+            const tagElement = document.createElement('h4');
             tagElement.textContent = 'Tag: ' + task.tag;
             contentContainer.appendChild(tagElement);
 
             taskElement.appendChild(contentContainer);
             taskElement.setAttribute('data-task-id', task.id);
             taskElement.addEventListener('click', () => openEditModal(task.id));
+
+            const createdAtElement = document.createElement('div');
+            createdAtElement.textContent = 'Created at: ' + task.created_at;
+            contentContainer.appendChild(createdAtElement);
+
+            taskElement.appendChild(contentContainer);
+            taskElement.setAttribute('data-task-id', task.id);
+            taskElement.classList.add('small-text');
+            taskElement.addEventListener('click', () => openEditModal(task.id));
+
 
             columnElement.appendChild(taskElement);
         });
@@ -72,6 +82,17 @@ const tasks = [
           hideOverlay();
       }
   }
+  // Function to delete a task
+  function deleteTask(taskId) {
+    const taskIndex = tasks.findIndex(task => task.id === taskId);
+
+    if (taskIndex !== -1) {
+      tasks.splice(taskIndex, 1);
+      renderTasks();
+      closeEditModal();
+      hideOverlay();
+    }
+  }
   
   // Function to close the edit modal
   function closeEditModal() {
@@ -101,7 +122,8 @@ const tasks = [
             id: tasks.length + 1,
             title: newTitle,
             status: newStatus,
-            tag: newTag
+            tag: newTag,
+            created_at: new Date().toISOString().slice(0, 10),
         };
   
         tasks.push(newTask);

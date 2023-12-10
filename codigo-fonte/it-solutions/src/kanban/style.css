@@ -91,6 +91,7 @@ body.blur {
     border-radius: 6px;
     border: 1px solid #D9D9D9;
     background: rgba(208, 213, 221, 0.36);
+    min-height: 600px;
 }
 
 .column header {
@@ -134,6 +135,15 @@ body.blur {
     cursor: pointer;
 }
 
+.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 .modal {
     display: none;
     position: fixed;
@@ -157,13 +167,19 @@ body.blur {
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    margin-right: 3px;
 }
 
-.modal button {
+.add-button {
     background-color: #4caf50;
     color: #fff;
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #666;
 }
